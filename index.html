@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>BAIDA</title>
+  <link crossorigin="anonymous" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" rel="stylesheet" />
+  <link rel="stylesheet" href="./style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/ScrollTrigger.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/>
+</head>
+<body>
+  <div class="container">
+  <div class="bars"></div>
+</div>
+
+<div class="overlay">
+  <img src="./imgs/check.gif" alt="">
+</div>
+
+
+<section class="header">
+  <img class="shapes blur blurs" src="./imgs/blur.png" alt="">
+  <img class="shapes blur-2 blurs" src="./imgs/blur.png" alt="">
+  <nav>
+    <img class="nav-logo" src="./imgs/logo.png" alt="">
+    <div class="close">
+      <div></div>
+    </div>
+    <ul>
+      <li><a class="sofia-black text-purple text-lg" href="index.html">Home</a></li>
+      <li><a class="sofia-black text-purple text-lg" href="#about">About</a></li>
+      <li><a class="sofia-black text-purple text-lg" href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <div class="custom-container d-flex flex-column align-items-center justify-content-center mt-5" id="purchase">
+    <div class="row align-items-center w-100 mt-5 reverse-mobile">
+      <div class="col-md-6">
+        <div class="purple-circle purple-circle-2"></div>
+        <h2 class="text-purple sofia-black">BAIDA
+        </h2>
+        <p class="text-light sofia-light text-md w-75 desc-text mt-5">BRAINS. AND. INTELLIGENCE. DELIVERED. ANYWHERE.</p>
+      </div>
+      <div class="col-md-6 d-flex flex-column align-items-center justify-content-center primary-img"> <img class="big-logo" src="./imgs/aco-header.png" alt="">
+        <div class="purple-circle shapes"></div>
+        <div class="green-circle shapes"></div>
+        <div class="blue-circle shapes"></div>
+      </div>
+    </div>
+
+  <div class="reveal-holder mx-auto come-up ">
+    <div class="reveal-block right" data-aos-easing="new-easing" data-aos="reveal-right"></div>
+    <p class="text-light text-sm sofia-light d-block mx-auto ">Want to learn more about <span class="text-purple sofia-Semi">BAIDA</span>?</p>
+  </div>
+
+<img class="d-block mx-auto come-up" src="./imgs/point_down.gif" alt=""> 
+  </div>
+</section>
+<section>
+
+
+
+
+
+  <div class="custom-container py-5 start-up">
+    <div class="d-flex flex-row justify-content-between">
+
+      <div class="feature-box d-flex flex-column align-items-start go-up">
+        <img class="mb-4" src="./imgs/play.svg" alt="">
+        <h6 class="text-md Sofia-Semi text-dark mb-4">Championing the Dreams of Tomorrow's Leaders</h6>
+        <div class="reveal-holder mx-auto ">
+          <div class="reveal-block right" data-aos-easing="new-easing" data-aos="reveal-right"></div>
+        </div>
+
+        <p class="text-light text-sm sofia-light">We understand that the future rests in the hands of our own children and youth. Yet, too often, those from minority areas find themselves at the crossroads of aspiration and accessibility. We are deeply committed to prioritizing these young minds who, despite their immense potential, might feel left out of today's rapidly evolving society. By offering them tailored opportunities and resources, we aim to level the playing field. Our goal is to ensure that every child, no matter their background or location, feels seen, heard, and empowered to chase their dreams. Because at BAIDA, we believe in fostering hope and creating a world where everyone belongs.</p>
+      </div>
+
+      <div class="feature-box d-flex flex-column align-items-start go-down">
+        <img class="mb-4" src="./imgs/help-circle.svg" alt="">
+        <h6 class="text-md Sofia-Semi text-dark mb-4">Empowering the World with AI & Automation </h6>
+        <p class="text-light text-sm sofia-light">At BAIDA, we believe in a future where opportunities are boundless, not bound by borders. We're pioneering a digital revolution by intertwining the prowess of Artificial Intelligence with the efficiency of Automation. Our mission is to create a platform where anyone, from any corner of the world, regardless of their background, ethnicity, or experience, can tap into global opportunities. We envision a world where technology is the bridge to dreams, and where your potential is the only limit. Join us in redefining what's possible!</p>
+      </div>
+
+
+      <div class="feature-box d-flex flex-column align-items-start go-up">
+        <img class="mb-4" src="./imgs/map-pin.svg" alt="">
+        <h6 class="text-md Sofia-Semi text-dark mb-4">Exciting News for Our Scandinavian Users</h6>
+        <p class="text-light text-sm sofia-light">We're thrilled to announce that our app will be available for download in Norway, Sweden, and Denmark on the App Store. Mark your calendars for Q1 2024 and get ready for an unparalleled experience tailored just for you. Stay tuned for more updates, and thank you for being a part of our growing community!.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="py-5" id="about">
+  <div class="custom-container go-right-one">
+    <div class="row d-flex flex-row align-items-center mobile-my">
+      <div class="col-md-6 mobile-mb go-right-img-one">
+        <div style="transform-style: preserve-3d" data-tilt class="img-container d-flex flex-column align-items-center justify-content-center js-tilt">
+          <img  class=" img-fluid" src="./imgs/aco-bg.png" alt="">
+          <div class="purple-circle-3 purple-circle blurs"></div>
+        </div>
+         <!-- <img data-tilt  src="./imgs/aco.png" alt=""><div class="purple-circle-3 purple-circle blurs"> -->
+
+        </div>
+      <div class="col-md-6">
+        <div class="reveal-holder">
+          <div class="reveal-block right" data-aos-easing="new-easing" data-aos="reveal-right"></div>
+          <h6 class="text-lg text-dark text-left sofia-black">Simplicity Meets Efficiency</h6>
+        </div>
+
+        <p class="text-dark text-md text-left sofia-light">At BAIDA, we blend the elegance of simplicity with the power of efficiency. Our designs are crafted to be sleek and intuitive, ensuring users find what they're looking for with ease. Every interaction is streamlined, every process fine-tuned, making our platform not only visually pleasing but also effortlessly usable. Dive into an experience where clarity meets capability, and simplicity becomes synonymous with excellence.</p>
+      </div>
+    </div>
+
+    <div class="row d-flex flex-row align-items-center reverse mobile-my go-left">
+      <div class="col-md-6">
+        <div class="reveal-holder">
+          <div class="reveal-block right" data-aos-easing="new-easing" data-aos="reveal-right"></div>
+          <h6 class="text-lg text-dark text-left sofia-black">Privacy First, Always</h6>
+        </div>
+
+        <p class="text-dark text-md text-left sofia-light">Your trust is paramount to us. We are deeply committed to safeguarding your personal information. With a foundation built on integrity and transparency, we assure you that your data remains strictly confidential. We will never share, sell, or compromise your data for any reason. Your privacy isn't just a policy, it's our promise.</p>
+      </div>
+
+
+      <div  class="col-md-6 mobile-mb go-left-img">
+        <div style="transform-style: preserve-3d" data-tilt class="img-container d-flex flex-column align-items-center justify-content-center js-tilt">
+          <img  class=" img-fluid" src="./imgs/aco-bg.png" alt="">
+          <div class="blue-circle-3 purple-circle blurs"></div>
+        </div>
+         </div>
+       </div>
+    </div>
+
+    <div class="row d-flex flex-row align-items-center mobile-my go-right-two mb-5">
+      <div class="col-md-6 mobile-mb go-right-img-two">
+        <div style="transform-style: preserve-3d" data-tilt class="img-container d-flex flex-column align-items-center justify-content-center js-tilt">
+          <img  class=" img-fluid" src="./imgs/aco-bg.png" alt="">
+          <div class="green-circle-3 purple-circle blurs"></div>
+        </div>
+         </div>
+      <div class="col-md-6">
+        <div class="reveal-holder">
+          <div class="reveal-block right" data-aos-easing="new-easing" data-aos="reveal-right"></div>
+          <h6 class="text-lg text-dark text-left sofia-black">Hassle-Free Tax Management</h6>
+        </div>
+        <p class="text-dark text-md text-left sofia-light">Joining BAIDA means one less thing to worry about. We've got your taxes covered! From calculations to submissions, our platform ensures that all tax-related matters are handled seamlessly. For our users, it's as simple as plug and play. Dive in and enjoy a stress-free experience while we take care of the paperwork.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="download purple-bg py-3 mt-5" id='about'>
+  <div class="custom-container">
+    <div class="row py-5 d-flex align-items-center">
+      <img class="blank-phone" src="./imgs/aco-tilt.png" alt="">
+      <div class="col-md-6"></div>
+      <div class="col-md-6">
+        <div class="reveal-holder">
+          <div class="reveal-block reveal-block-purple right" data-aos-easing="new-easing" data-aos="reveal-right"></div>
+          <h6 class="sofia-black text-white text-lg">Launching in Q1 2024 <img src="./imgs/eyes.gif" alt=""></h6>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="pt-5">
+  <div class="marquee">
+    <div class="track">
+      <div class="sofia-black text-light text-xxl">BRAINS. AND. INTELLIGENCE. DELIVERED. ANYWHERE.</div>
+    </div>
+  </div>
+</div>
+<div class="pb-5">
+  <div class="marquee">
+    <div class="track-reverse">
+      <div class="sofia-black text-light text-xxl">BRAINS. AND. INTELLIGENCE. DELIVERED. ANYWHERE.</div>
+
+    </div>
+  </div>
+</div>
+<section class="mt-5 py-3 footer">
+  <div class="contact-box w-100">
+    <div class="d-flex flex-row justify-content-between align-items-center">
+      <div class="d-flex flex-row">
+        <div class="d-flex flex-column align-items-start
+        justify-content-center pl-3">
+            <h2 class="text-xl text-dark sofia-semi text-left">Questions Or A Comment?</h2>
+            <h2 class="text-xl text-dark sofia-semi text-left">Reach Out To Us Below.</h2>
+            <a href="contact.html" class="btn btn-purple sofia-Semi text-md text-white mt-3">Get in touch.</a>
+        </div>
+      </div>
+      <img class="d-block" src="./imgs/writing_hand.gif" alt="">
+    </div>
+  </div>
+    <div class="d-flex flex-row align-items-center justify-content-center mb-5">
+
+    </div>
+
+     <div class="d-flex mb-1 flex-row mx-auto justify-content-center">
+        <li class="nav-item"><a class="sofia-reg text-dark text-sm nav-link" href="index.html"><span class="nav-span">Home</span></a></li>
+        <li class="nav-item"><a class="sofia-reg text-dark text-sm nav-link" href="#about"><span class="nav-span">About</span></a></li>
+            <!-- <li class="nav-item"><a class="sofia-reg text-dark text-sm nav-link" href="#"><span class="nav-span">purchase</span></a></li>-->
+        <li class="nav-item"><a class="sofia-reg text-dark text-sm nav-link" href="contact.html"><span class="nav-span">Contact</span></a></li>
+     </div>
+     <!-- <div class="d-flex mb-3 flex-row mx-auto justify-content-center">
+        <li class="nav-item ml-5"><a class="nav-link text-light-purple dev-text-two" href="#"><span class="nav-span">Terms And Conditions</span></a></li>
+        <li class="nav-item ml-5"><a class="nav-link text-light-purple dev-text-two" href="#"><span class="nav-span">Refund Policy</span></a></li>
+        <li class="nav-item ml-5"><a class="nav-link text-light-purple dev-text-two" href="#"><span class="nav-span">Privacy Policy</span></a></li>
+     </div> -->
+     <p class=" text-center text-light-purple mb-3">BAIDA 2023 All Rights Reserved</p>
+  </section>
+  <section class="py-2 purple-bg">
+  </section>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/ScrollTrigger.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script type="text/javascript">
+AOS.init({
+  duration: 1500, // values from 0 to 3000, with step 5
+  once: true
+});
+const open = document.querySelector('.container');
+		const close = document.querySelector('.close');
+		var tl = gsap.timeline({ defaults: { duration: 1, ease: 'expo.inOut' } });
+		open.addEventListener('click', () => {
+			if (tl.reversed()) {
+				tl.play();
+			} else {
+				tl.to('nav', { right: 0 })
+					.to('nav', { height: '100vh' }, '-=.1')
+					.to('nav ul li a', { opacity: 1, pointerEvents: 'all', stagger: .2 }, '-=.8')
+					.to('.close', { opacity: 1, pointerEvents: 'all' }, "-=.8")
+					.to('nav h2', { opacity: 1 }, '-=1');
+			}
+		});
+
+		close.addEventListener('click', () => {
+			tl.reverse();
+		});
+    const ul = document.querySelector('ul')
+
+    ul.addEventListener('click', () => {
+      tl.reverse();
+    });
+
+
+    gsap.to(".shapes", {
+  x: "random(-30, 30)",
+  y: "random(-30, 30)",
+  ease: "power1.inOut",
+  duration: 2,
+  repeat: -1,
+  repeatRefresh: true
+});
+gsap.to(".blurs", {
+x: "random(-10, 10)",
+y: "random(-10, 10)",
+ease: "power1.inOut",
+duration: 2,
+repeat: -1,
+repeatRefresh: true
+});
+
+TweenMax.to(".overlay img", 2, {
+delay: .6,
+opacity: 0,
+scale: 2.525,
+x: 620,
+ease: Expo.easeInOut
+})
+
+
+TweenMax.to(".overlay", 1, {
+delay: 1.3,
+left: "-300%",
+ease: Expo.easeInOut
+})
+
+
+
+TweenMax.from(".primary-heading", 1.5, {
+  delay: 1.4,
+  opacity: 0,
+  x: -100,
+  scale: 1.4,
+  ease: Expo.easeOut,
+})
+
+TweenMax.from(".primary-img", 1, {
+  delay: 1.2,
+  opacity: 0,
+  ease: Expo.easeOut,
+})
+
+
+TweenMax.from(".come-up", 1, {
+  delay: 2.4,
+  opacity: 0,
+  scale: 5,
+  y: 200,
+  ease: Expo.easeOut,
+})
+
+gsap.from('.go-up', {
+  duration: 2.5, y: '-200px', ease: 'Power2.easeOut',
+  opacity: 0,
+  scrollTrigger: {
+    trigger: '.start-up',
+    start: 'top 90%',
+    end: 'bottom -10%',
+    toggleActions: 'restart resume reverse reset'
+  },
+  stagger: .2
+})
+gsap.from('.go-down', {
+  duration: 2.5, y: '200px', ease: 'Power2.easeOut',
+  opacity: 0,
+  scrollTrigger: {
+    trigger: '.start-up',
+    start: 'top 80%',
+    end: 'bottom -10%',
+    toggleActions: 'restart resume reverse reset'
+  },
+  stagger: .2
+})
+
+gsap.from('.go-right-img-one', {
+  duration: 2.5, x: '-200px', ease: 'Power2.easeOut',
+  opacity: 0,
+  scrollTrigger: {
+    trigger: '.go-right-one',
+    start: 'top 80%',
+    end: 'bottom -10%',
+    toggleActions: 'restart resume reverse reset'
+  },
+  stagger: .2
+})
+gsap.from('.go-left-img', {
+  duration: 2.5, x: '-200px', ease: 'Power2.easeOut',
+  opacity: 0,
+  scrollTrigger: {
+    trigger: '.go-left',
+    start: 'top 80%',
+    end: 'bottom -10%',
+    toggleActions: 'restart resume reverse reset'
+  },
+  stagger: .2
+})
+
+gsap.from('.go-right-img-two', {
+  duration: 2.5, x: '-200px', ease: 'Power2.easeOut',
+  opacity: 0,
+  scrollTrigger: {
+    trigger: '.go-right-two',
+    start: 'top 80%',
+    end: 'bottom -10%',
+    toggleActions: 'restart resume reverse reset'
+  },
+  stagger: .2
+})
+
+gsap.from('.contact-box', {
+  duration: 1.5, y: '200px', ease: 'Power2.easeOut',
+  scale: '.4',
+  opacity: 0,
+  scrollTrigger: {
+    trigger: '.footer',
+    start: 'top 80%',
+    end: 'bottom -10%',
+    toggleActions: 'restart resume reverse reset'
+  },
+  stagger: .2
+})
+
+
+</script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/tilt.js@1.2.1/dest/tilt.jquery.min.js" ></script> <!-- Load jQuery first -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.1/tilt.jquery.min.js"></script> <!-- Load Tilt.js library -->
+<script type="text/javascript">
+$('.js-tilt').tilt({
+  maxTilt: 5
+})
+</script>
+</body>
+</html>
